@@ -26,28 +26,28 @@ Stop the execution.
 ## Program:
 Developed by : Gayathri A
 Register Number : 212221230028
-
+```
 using System;
 
 public class ConsoleApp1
 {
     public static void Main(string[] args)
     {
-        int physi, chemi, maths, total1, total2;
+        int p, c, m, tot1, tot2;
         string name;
-        Console.WriteLine("Enter the Physi mark:");
-        physi = Convert.ToInt32(Console.ReadLine());
-        Console.WriteLine("Enter the chemis mark:");
-        chemi = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Enter the Physics mark:");
+        p= Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("Enter the chemistry mark:");
+        c = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Enter the maths mark:");
-        maths = Convert.ToInt32(Console.ReadLine());
+        m = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Enter a Name of the student");
         name = Console.ReadLine();
-        total1 = physi + chemi + maths;
-        total2 = physi + maths;
-        if (physi >= 55 && chemi >= 50 && maths >= 65)
+        tot1 = p + c + m;
+        tot2 = p + m;
+        if (p >= 55 && c >= 50 && m >= 65)
         {
-            if (total1 >= 180 || total2 >= 140)
+            if (tot1 >= 180 || tot2 >= 140)
             {
                 Console.WriteLine("{0} is eligible for engineering admission", name);
             }
@@ -65,6 +65,7 @@ public class ConsoleApp1
     }
 }
 
+```
 
 ## Output:
 
